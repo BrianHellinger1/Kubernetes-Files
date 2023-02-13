@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-deployment-one
+data:
+  index.html: |
+    <html>
+      <head>
+        <title>Brians Week 18 Project</title>
+      </head>
+      <body>
+        <h1>This is Deployment One</h1>
+      </body>
+    </html>
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-deployment-two
+data:
+  index.html: |
+    <html>
+      <head>
+        <title>Brians Week 18 Project</title>
+      </head>
+      <body>
+        <h1>This is Deployment Two</h1>
+      </body>
+    </html>
