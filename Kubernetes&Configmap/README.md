@@ -15,5 +15,5 @@
 
 ## Commands
 
-### Check nodes running on system
+### - Check nodes running on system
 `kubectl get nodes
