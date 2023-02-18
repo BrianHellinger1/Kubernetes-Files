@@ -18,5 +18,20 @@
 ### - Check nodes running on system
 `kubectl get nodes`
 
-### - Deploy changes to YAML File
+### - Create & Deploy changes to Configmap YAML File
 `kubectl apply -f "File Name" `
+
+### - Verify file was created
+`kubectl get configmap`
+
+### - Describe Configmap file that was created
+`kubectl describe configmap`
+
+### - Check deployments created
+`kubectl get pods -o wide`
+
+### - Check Service
+`kubectl get service -o wide`
+
+### - Curl local host
+`curl localhost:port number`
