@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: brians-service
+spec:
+  selector:
+    app: nginx
+  type: NodePort
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+    nodePort: 30001
+
+# I ended up changing this nodePort to 31111.
+# Please read ahead for this as I came back to add these notes.
