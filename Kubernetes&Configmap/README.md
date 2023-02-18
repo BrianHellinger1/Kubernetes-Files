@@ -12,3 +12,8 @@
 ### - Include a ConfigMap that points to a custom index.html page that contains the line “This is Deployment Two”.
 ### - Create a service that points to both deployments, You should be able to access both deployments using the same IP address and port number.
 ### - Use the curl command (curl service-IP-address:service-port) to validate that you eventually see the index.html pages from both Deployment 1 and Deployment 2.
+
+## Commands
+
+### Check nodes running on system
+`kubectl get nodes
