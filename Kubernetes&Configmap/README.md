@@ -16,4 +16,7 @@
 ## Commands
 
 ### - Check nodes running on system
-`kubectl get nodes
+`kubectl get nodes`
+
+### - Deploy changes to YAML File
+`kubectl apply -f "File Name" `
